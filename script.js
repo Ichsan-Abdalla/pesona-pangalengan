@@ -221,7 +221,7 @@ lanjutDisini.onclick = _=>{
                 <li><b>Rp 30.000</b> / pax</li>
               </dl><br>
 
-              Lokasi : Wisata Situ Cileunca/ Hutan pinus RAHONG, Pangalengan, Bandung<br>
+              Lokasi : Wisata Situ Cileunca / Hutan pinus RAHONG, Pangalengan, Bandung<br>
 
               Jarak : 130 m<br>
 
