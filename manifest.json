@@ -1,0 +1,21 @@
+{
+	"author": "Ichsan Abdalla",
+	"name": "Pesona Pangalengan",
+	"short_name": "Pesona Alam Pangalengan",
+	"start_url": ".",
+	"scope": ".",
+	"display": "standalone",
+	"background_color": "#D8D2C6",
+	"theme_color": "#D8D2C6",
+	"icons": [
+		{
+			"src": "icon.png",
+			"sizes": "48x48 72x72 96x96 144x144 192x192 256x256 512x512",
+			"type": "image/png"
+		}
+	],
+	"related_applications": [{
+    "platform": "webapp",
+    "url": "manifest.json"
+  }]
+}

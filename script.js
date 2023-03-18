@@ -1,0 +1,533 @@
+window.addEventListener("DOMContentLoaded", e=>{
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.getRegistration("sw.js").then((e) => {
+          if (e.active && 'getInstalledRelatedApps' in navigator && window.matchMedia('(display-mode: standalone)').matches != true) {
+            
+            lanjutDisini.click();
+          }else if(window.matchMedia('(display-mode: standalone)').matches == true){
+            lanjutDisini.click();
+          }else{
+            location.reload();
+          }
+        });
+      }else{
+        lanjutDisini.click();
+      }
+});
+
+
+
+
+
+lanjutDisini.onclick = _=>{
+
+    document.body.innerHTML = ` <div class="no1 a">
+    <div class="a" id="no1">
+      <span>
+        <span>
+          <img src="harmoko.png" alt="">
+          <p class="p">CV. Fadilah Kasab Harmoni</p>
+        </span>
+          <p>Pesona Alam Pangalengan</p>
+      </span>
+      <br /><br />
+      <h1>Segarkan Hati & Pikiran<br />Dengan Liburan</h1>
+      <br />
+      <span onclick=" window.scrollTo({
+        top: document.querySelector('#no2').getBoundingClientRect().top-document.body.getBoundingClientRect().top,
+        left: 0,
+        behavior: 'smooth'
+      });"><h2>&#8595;</h2></span>
+    </div>
+  </div>
+  
+  <div class="no2">
+          <div id="no2" class="a">
+            <p>Misi</p>
+            <br />
+            <h2>
+              Kami ingin anda bersenang-senang setelah melalui hari-hari yang
+              melelahkan
+            </h2>
+            <br /><br />
+            <p>
+              Siapkan dirimu untuk petualangan seru di destinasi wisata yang menakjubkan! Ajak keluarga & teman-temanmu untuk menikmati pemandangan alam yang indah dan rasakan pengalaman yang tak terlupakan dengan berbagai kegiatan seru yang tersedia. Selain itu, kamu juga dapat menikmati kuliner khas setempat dan budaya yang unik. Bersama dengan tim ahli kami, kamu akan mendapatkan pengalaman wisata yang aman, nyaman, dan menyenangkan. Kami menyediakan paket wisata yang disesuaikan dengan kebutuhanmu.
+            </p>
+          </div>
+          <span>
+            <div style="height:55vmin;"></div>
+          </span>
+        </div>
+  
+
+        <div class="no3">
+          <span>
+            <div style="height:55vmin;"></div>
+          </span>
+          <div class="a">
+            <p>Solusi</p>
+            <br />
+            <h2>Kami siapkan & kami berikan</h2>
+            <br /><br />
+            <p>Jika kamu merasa bingung untuk merencanakan liburan yang sempurna, jangan khawatir! Kami memiliki solusi yang tepat untukmu. Nikmati liburan yang tak terlupakan dengan paket liburan kami yang dirancang khusus untuk memenuhi kebutuhan dan keinginanmu. Kami akan membantu merencanakan setiap detail liburanmu, sehingga kamu dapat merasa tenang dan menikmati setiap momen. Jangan ragu untuk menghubungi kami sekarang dan biarkan kami membantu merencanakan liburan yang kamu inginkan!</p>
+          </div>
+        </div>
+        
+        <div class="divx">
+        <div class="no4" id="no4">
+        <div class="a">
+          <p>Focus</p>
+          <br />
+          <h2>Meningkatkan Hubungan Sosial</h2>
+          <br /><br /><br />
+          <p>Liburan dapat membantu meningkatkan hubungan sosial, baik dengan keluarga maupun teman. Ini memberikan kesempatan untuk berkumpul, berbicara, dan menghabiskan waktu bersama-sama, dan dapat memperkuat ikatan emosional antara orang-orang tersebut.</p>
+        </div>
+        <span id="spanx"></span>
+      </div>
+
+      <div class="no4a">
+            <div>
+              <p>01</p>
+              <br />
+              <h2>Rafting / Arung Jeram</h2>
+              <br /><br />
+              <p>Kamu akan diajak mengarungi sungai yang mempesona sambil menikmati pemandangan alam yang indah di sekitarmu. Tak perlu khawatir, tim kami akan memberikan pelatihan dan perlengkapan keselamatan yang lengkap agar kamu dapat merasakan pengalaman rafting yang aman dan menyenangkan.</p>
+            </div>
+            <span>
+              <img src="rafting.jpg" alt="" />
+            </span>
+          </div>
+
+          <div class="no4b">
+          <div>
+            <p>02</p>
+            <br />
+            <h2>Offroad</h2>
+            <br /><br />
+            <p>Kamu akan diajak mengendarai mobil offroad melintasi medan yang menantang dan menguji adrenalinmu. Rasakan kegembiraan saat kamu melewati rintangan dan menjelajahi pemandangan alam yang menakjubkan. Dengan perlengkapan keselamatan yang lengkap dan pengemudi yang berpengalaman, kamu akan merasa aman dan percaya diri dalam setiap perjalanan.</p>
+          </div>
+          <span>
+            <img src="offroad.jpg" alt="" />
+          </span>
+        </div>
+
+        <div class="no4c">
+            <div>
+              <p>03</p>
+              <br />
+              <h2>Paintball</h2>
+              <br /><br />
+              <p>
+                Siapkan dirimu untuk petualangan seru di destinasi wisata yang menakjubkan! Ajak keluarga & teman-temanmu untuk menikmati pemandangan alam yang indah dan rasakan pengalaman yang tak terlupakan dengan berbagai kegiatan seru yang tersedia. Selain itu, kamu juga dapat menikmati kuliner khas setempat dan budaya yang unik. Bersama dengan tim ahli kami, kamu akan mendapatkan pengalaman wisata yang aman, nyaman, dan menyenangkan.
+              </p>
+            </div>
+            <span>
+              <img src="paintball.jpg" alt="" />
+            </span>
+          </div>
+
+          <div class="no4d">
+          <div>
+            <p>04</p>
+            <br />
+            <h2>ATV Adventure</h2>
+            <br /><br />
+            <p>Sudah bosan dengan liburan yang biasa-biasa saja? Ayo coba petualangan seru dengan ATV adventure! Rasakan sensasi mengendarai ATV dan menjelajahi medan yang menantang sambil menikmati pemandangan alam yang menakjubkan. Bersama dengan tim ahli kami, kamu akan diajak melintasi jalur-jalur off-road yang menantang dan menguji adrenalinmu. Dengan perlengkapan keselamatan yang lengkap, kamu dapat merasakan petualangan ini dengan aman dan percaya diri.</p>
+          </div>
+          <span>
+            <img src="atv.jpg" alt="" />
+          </span>
+        </div>
+
+        <div class="no4e">
+            <div>
+              <p>05</p>
+              <br />
+              <h2>Flying Fox</h2>
+              <br /><br />
+              <p>Tak ada yang lebih seru daripada merasakan sensasi terbang di udara dengan flying fox! Rasakan adrenalinmu saat melepas diri dari ketinggian dan meluncur cepat di atas lembah yang indah. Kamu juga dapat menikmati pemandangan alam yang menakjubkan selama perjalanan flying fox.</p>
+            </div>
+            <span>
+              <img src="fox.jpg" alt="" />
+            </span>
+          </div>
+
+          <div id="no4f" class="no4f">
+            <div>
+              <p>06</p>
+              <br />
+              <h2>Fun Games / Team Building</h2>
+              <br /><br />
+              <p>Apakah timmu membutuhkan momen untuk berkumpul dan mempererat hubungan? Ayo coba pengalaman team building bersama kami! Bersama dengan tim ahli kami, kamu akan diajak mengalami momen yang menyenangkan dan bermanfaat dalam memperkuat hubungan timmu. Kami menawarkan berbagai kegiatan seru yang dirancang khusus untuk memacu kerjasama dan membangun kepercayaan antara anggota tim. Dengan pengalaman yang menyenangkan dan bermanfaat, timmu akan lebih solid dan dapat bekerja lebih efektif.</p>
+            </div>
+            <span>
+              <img src="team.jpg" alt="" />
+            </span>
+          </div>
+          </div>
+
+          <div class="no5" id="no5">
+          <div id="no5a" class="a">
+            <div>
+              <h3>Rafting / Arung jeram</h3><br>
+              <dl>
+                <dt>Harga :</dt>
+                <li><b>Rp 150.000</b> / orang (min 5 orang)</li>
+                <li>atau <b>Rp 175.000</b> / orang (termasuk makan siang)</li>
+              </dl>
+              Lokasi : Sungai Palayangan Pangalengan, Bandung<br>
+              Jarak : 5 Km<br>
+              Waktu Tempuh : 90 Menit<br>
+              Fasilitas : Perahu, Pelampung, Dayung.<br><br>
+
+              Include :<br>
+              Welcome drink, Makan berat 1x, Snack, P3K / Safety Equipment & Rescue team, Rest Area, Tempat Bilas, Asuransi, Local transport, Instruktur.
+            </div>
+            <div>
+              <h3>Fun ATV Adventure</h3><br>
+              <b>ATV Single (Rp 175.000/ orang)</b><br>
+              1 orang untuk 1 unit ATV*<br>
+
+              <b>ATV Tandem (Rp 225.000/ 2 orang)</b><br>
+              2 orang untuk 1 unit ATV* <br><br>
+
+              *Minimal sewa 3 unit ATV<br><br>
+              <dl>
+                <dt>Fasilitas :</dt>
+                <li>Kendaraan ATV</li>
+                <li>Tiket Objek Wisata Situ Cileunca</li>
+                <li>Tiket Jalur ATV</li>
+                <li>Guide (pemandu)</li>
+                <li>Safety Equipment (helm)</li>
+              </dl>
+            </div>
+            <div>
+              <h3>Paintball</h3><br>
+              <dl>
+                <dt>Harga :</dt>
+                <li><b>Rp 75.000</b> / orang (minimal 20 orang)</li>
+              </dl><br>
+              Lokasi : Hutan pinus RAHONG / Wisata Situ Cileunca<br>
+
+              Fasilitas : Baju seragam, rompi, masker, peluru 30 butir<br><br>
+
+              Include :<br>
+              snack dan mineral water, tiket lokasi, P3K, Asuransi
+            </div>
+            <div>
+              <h3>Flying fox</h3><br>
+              <dl>
+                <dt>Harga :</dt>
+                <li><b>Rp 30.000</b> / pax</li>
+              </dl><br>
+
+              Lokasi : Wisata Situ Cileunca/ Hutan pinus RAHONG, Pangalengan, Bandung<br>
+
+              Jarak : 130 m<br>
+
+              Fasilitas : Harness, Helm<br><br>
+
+              Include :<br>
+              Instruktur, P3K, Asuransi
+            </div>
+            <div>
+              <h3>Fun Games / Team building</h3><br>
+              <dl>
+                <dt>Harga :</dt>
+                <li><b>Rp 150.000</b> / pax</li>
+              </dl><br>
+              Lokasi : Situ Cileunca<br>
+
+              Fasilitas : Equipment<br><br>
+
+              Include :<br>
+              Instruktur, P3K, Air Mineral & Snack, Asuransi
+              </div>
+              <div>
+                <h3>Offroad</h3><br>
+                <dl>
+                  <dt>Harga :</dt>
+                  <li><b>Rp 1.500.000</b> / unit (Max 7 orang/unit)</li>
+                </dl><br>
+    
+                Fasilitas : Mobil Land rover<br><br>
+    
+                Include :<br>
+                Driver, Guide, P3K, Tiket Jalur, & Asuransi
+              </div>
+              <div>
+                <h3>Paket hemat 1 hari</h3><br>
+                <dl>
+                  <dt>Harga :</dt>
+                  <li><b>Rp 250.000</b> / pax (Minimal 25 pax)</li>
+                </dl><br>
+
+                <dl>
+                  <dt>Kegiatan :</dt>
+                  <li>Rafting + instruktur</li>
+                  <li>Paintball + instruktur</li>
+                  <li>Flying Fox + instruktur</li>
+                </dl><br>
+
+                Include :<br>
+                Welcome drink, Makan besar 1x, Snack 2x, Tiket objek wisata situ cileunca, Asuransi
+              </div>
+              <div>
+                <h3>Paket Fly</h3><br>
+                <dl>
+                  <dt>Harga :</dt>
+                  <li><b>Rp 175.000</b> / orang</li>
+                </dl><br>
+
+                <dl>
+                  <dt>Kegiatan :</dt>
+                  <li>Rafting</li>
+                  <li>Flying Fox</li>
+                </dl><br>
+
+                Include : <br>
+                Welcome drink, Makan besar 1x, Snack 1x, Tiket objek wisata situ cileunca, Asuransi
+              </div>
+              <div>
+                <h3>Paket Fight</h3><br>
+                <dl>
+                  <dt>Harga :</dt>
+                  <li><b>Rp 225.000</b> / orang</li>
+                </dl><br>
+
+                <dl>
+                  <dt>Kegiatan :</dt>
+                  <li>Rafting</li>
+                  <li>Paintball</li>
+                </dl><br>
+
+                Include : <br>
+                Welcome drink, Makan besar 1x, Snack 1x, Tiket objek wisata situ cileunca, Asuransi
+              </div>
+              <div>
+                <h3>Paket Triple</h3><br>
+                <dl>
+                  <dt>Harga :</dt>
+                  <li><b>Rp 250.000</b> / orang</li>
+                </dl><br>
+
+                <dl>
+                  <dt>Kegiatan :</dt>
+                  <li>Rafting</li>
+                  <li>Paintball</li>
+                  <li>Flying Fox</li>
+                </dl><br>
+
+                Include : <br>
+                Welcome drink, Makan besar 1x, Snack 1x, Tiket objek wisata situ cileunca, Asuransi
+              </div>
+              <div>
+                <h3>Paket Combo A</h3><br>
+                <dl>
+                  <dt>Harga :</dt>
+                  <li><b>Rp 450.000</b> / orang</li>
+                </dl><br>
+
+                <dl>
+                  <dt>Kegiatan :</dt>
+                  <li>Rafting</li>
+                  <li>Paintball</li>
+                  <li>Flying Fox</li>
+                  <li>Offroad</li>
+                </dl><br>
+
+                Include : <br>
+                Welcome drink, Makan besar 1x, Snack 1x, Tiket objek wisata situ cileunca, Asuransi
+              </div>
+              <div>
+                <h3>Paket Combo B</h3><br>
+                <dl>
+                  <dt>Harga :</dt>
+                  <li><b>Rp 400.000</b> / orang</li>
+                </dl><br>
+
+                <dl>
+                  <dt>Kegiatan :</dt>
+                  <li>Rafting</li>
+                  <li>Paintball</li>
+                  <li>Flying Fox</li>
+                  <li>Team Building</li>
+                </dl><br>
+
+                Include : <br>
+                Welcome drink, Makan besar 1x, Snack 1x, Tiket objek wisata situ cileunca, Team medis, Asuransi
+              </div>
+              <div>
+                <h3>Camping Ground</h3><br>
+                <dl>
+                  <dt>Harga :</dt>
+                  <li><b>Rp 275.000</b> / orang</li>
+                </dl><br>
+
+                Kapasitas : 4 orang <br>
+
+                Fasilitas : 1 tenda dump, 4 kasur, 4 sleeping bag <br><br>
+
+                Include : Snack, makan besar 3x
+              </div>
+              <div>
+                <h3>Camping Ground + paket</h3><br>
+                <dl>
+                  <dt>Harga :</dt>
+                  <li><b>Rp 600.000</b> / orang</li>
+                </dl><br>
+
+                Kapasitas : 4 orang <br>
+
+                Fasilitas : 1 tenda dump, 4 kasur, 4 sleeping bag <br>
+                Kegiatan : Rafting, Paint ball, Flying Fox, Fun Games <br><br>
+                Include : Snack, makan besar 3x, BBQ (kambing guling) <br>
+              </div>
+              <div>
+                <h3>Paket Corporate (A) / Family Gathering</h3><br>
+                <dl>
+                  <dt>Harga :</dt>
+                  <li><b>Rp 450.000</b> / Pax (Minimal 20 pax)</li>
+                </dl><br>
+
+                <dl>
+                  <dt>Fasilitas :</dt>
+                  <li>Akomodasi Villa 1 malam</li>
+                  <li>Rafting, Paintball, Flyingfox</li>
+                  <li>Makan 3x, Snack 3x, Air mineral</li>
+                  <li>Tiket obyek wisata situ cileunca, Instruktur, P3K/Safety equipment, Rescue team, Local transport, Asuransi
+                    Api unggun</li>
+                </dl>
+              </div>
+              <div>
+                <h3>Paket Corporate (B) / Family Gathering</h3><br>
+                <dl>
+                  <dt>Harga :</dt>
+                  <li><b>Rp 650.000</b> / Pax (Minimal 20 pax)</li>
+                </dl><br>
+
+                <dl>
+                  <dt>Fasilitas :</dt>
+                  <li>Akomodasi Villa 1 malam</li>
+                  <li>Rafting, Paintball, Flyingfox</li>
+                  <li>Makan 3x, Snack 3x, Air mineral</li>
+                  <li>Tiket obyek wisata situ cileunca, Instruktur, P3K/Safety equipment, Rescue team, Local transport, Asuransi
+                    Api unggun, Live music, Kambing guling</li>
+                </dl>
+              </div>
+          </div>
+          <div id="kanan1" class="0">
+            <div id="kanan1a">
+              <div>
+                <span>
+                  <input type="radio" name="harga" value="0" id="rafting" checked><label for="rafting">Arung Jeram</label>
+                  <input type="radio" name="harga" value="1" id="atv"><label for="atv">Fun ATV</label>
+                </span>
+                <span>
+                  <input type="radio" name="harga" value="2" id="painball"><label for="painball">Paintball</label>
+                  <input type="radio" name="harga" value="3" id="flying"><label for="flying">Flying Fox</label>
+                </span>
+                <span>
+                  <input type="radio" name="harga" value="4" id="team"><label for="team">Team Building</label>
+                  <input type="radio" name="harga" value="5" id="offroad"><label for="offroad">Offroad</label>
+                </span>
+              </div>
+              <div>
+                <span>
+                  <input type="radio" name="harga" value="6" id="hemat"><label for="hemat">Hemat 1 Hari</label>
+                  <input type="radio" name="harga" value="7" id="fly"><label for="fly">Paket  fly</label>
+                </span>
+                <span>
+                  <input type="radio" name="harga" value="8" id="fight"><label for="fight">Paket Fight</label>
+                  <input type="radio" name="harga" value="9" id="triple"><label for="triple">Paket Triple</label>
+                </span>
+                <span>
+                  <input type="radio" name="harga" value="10" id="comboA"><label for="comboA">Paket Combo A</label>
+                  <input type="radio" name="harga" value="11" id="comboB"><label for="comboB">Paket Combo B</label>
+                </span>
+              </div>
+              <div>
+                <span>
+                  <input type="radio" name="harga" value="12" id="camping"><label for="camping">Camping Ground</label>
+                  <input type="radio" name="harga" value="13" id="campingx"><label for="campingx">Camping Ground+</label>
+                </span>
+                <span>
+                  <input type="radio" name="harga" value="14" id="corporateA"><label for="corporateA">Paket Corporate A</label>
+                  <input type="radio" name="harga" value="15" id="corporateB"><label for="corporateB">Paket Corporate B</label>
+                </span>
+              </div>
+            </div>
+            <span class="kanan1s" id="kanan1s">
+              <input type="radio" name="paket" id="paketA" checked><label for="paketA" class="paket0">Paket<br>Sehari</label>
+              <input type="radio" name="paket" id="paketB"><label for="paketB" class="paket1">Paket<br>Combo</label>
+              <input type="radio" name="paket" id="paketC"><label for="paketC" class="paket2">Paket<br>Bermalam</label>
+            </span>
+          </div>
+        </div>
+
+        <div class="no6" id="no6">
+          <span><h2>Hubungi Kami</h2><hr></span>
+          <div class="footer">
+            <div>
+              <span>
+                <img src="harmoko.png" alt="">
+                <p class="p">CV. Fadilah Kasab Harmoni</p>
+              </span><br>
+              <dl>
+                <dt>Telepon / Whatsapp</dt>
+                <li><b>0857-9871-3830 </b>(Dede Ramdani)</li>
+                <dt>Lokasi</dt>
+                <li><b>Jl. Raya Pintu Pangalengan no. 54 Cisangkuy, Pangalengan, Bandung, Jawa Barat</b></li>
+              </dl>
+            </div>
+          </div>
+          <p class="bawah">Pesona Pangalengan | &#169; 2023 All Rights Reserved</p>
+        </div>
+        <div style="display:flex"></div>
+  `;
+    
+
+  setTimeout(() => {
+    no1.classList.remove('a');
+  }, 300);
+
+  window.onscroll = function() {
+    if(no5a.getBoundingClientRect().top <= window.innerHeight*40/100 && no5a.classList.contains('a')){
+      no5a.classList.remove('a');
+      document.querySelector('#no5a > div:first-child').classList.add('a');
+    }
+
+    if(document.querySelector('.no4 > div').getBoundingClientRect().top <= window.innerHeight*40/100){
+      document.querySelector('.no4 > div').classList.remove('a');
+    }
+
+    if(document.querySelector('.no3 > div').getBoundingClientRect().top <= window.innerHeight*40/100){
+      document.querySelector('.no3 > div').classList.remove('a');
+    }
+    
+    if(document.querySelector('.no2').getBoundingClientRect().top <= window.innerHeight*40/100){
+      no2.classList.remove('a');
+    }
+  }
+  
+  kanan1s.onclick = e=>{
+    kanan1a.style.marginLeft = -parseInt(e.target.classList.item(0)[e.target.classList.item(0).length-1])*100+'%';
+  }
+
+  kanan1a.onclick = e=>{
+    if(!e.target.value || e.target.value == kanan1.classList.item(0)){return;}
+    document.querySelectorAll('#no5a > div')[kanan1.classList.item(0)].classList.remove('a');
+    document.querySelectorAll('#no5a > div')[e.target.value].classList.add('a');
+    kanan1.classList.replace(kanan1.classList.item(0),e.target.value);
+  }
+}
+
+
+
+
+
+
+
+
+
+ 

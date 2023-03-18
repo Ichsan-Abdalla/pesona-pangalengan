@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      document.cookie = document.cookie.split("=")[0] + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js");
+      }
+    </script>
+    <title>HoB Barbershop</title>
+    <meta name="theme-color" content="#D8D2C6" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" type="image/png" href="icon.png" />
+    <link rel="apple-touch-icon" href="icon.png"/>
+  </head>
+  <body>
+    <div id="loading">
+        <div class="loadingspinner">
+          <div id="square1"></div>
+          <div id="square2"></div>
+          <div id="square3"></div>
+          <div id="square4"></div>
+          <div id="square5"></div>
+        </div>
+      </div>
+      
+        <div class="instal a" id="iNstal">
+          <div>
+            <h2>Silahkan Pilih</h2>
+            <button id="iNstalbtn">Instal App</button>
+            <button id="lanjutDisini">Lanjutkan Disini</button> 
+          </div>
+        </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
