@@ -560,10 +560,6 @@ div.no5{
   width: 26vmin;
 }
 
-#kanan1a> div:nth-child(2) > span:last-child label{
-  width: 28vmin;
-}
-
 #kanan1a> div:last-child label{
   width: 30vmin;
 }
@@ -710,29 +706,6 @@ label{
     height: auto;
   }
 
-  #no5a > div > h3{
-    color: gold;
-    font-weight: bold;
-    text-decoration: underline;
-    text-align: center;
-  }
-
-
-  #kanan1{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    overflow: hidden;
-  }
-  #kanan1a{
-    display: flex;
-    width: 300%;
-    height: 100%;
-    position: relative;
-    transition: .5s;
-  }
-
   #kanan1a > div{
     flex-direction: row;
     align-items: flex-end;
@@ -741,13 +714,10 @@ label{
   #kanan1a > div >span{
     flex-direction: column;
   }
-
+	
+	
   #kanan1a > div >span>label:last-child{
     margin-top: 10px;
   }
 
-  #kanan1a label{
-    color: #9b9191;
-    width: 24vmin;
-  }
 }
