@@ -672,6 +672,7 @@ label{
   width: 20vmin;
   border-radius: 1rem;
   padding: 5px;
+	transition: 1s;
 }
 
 #booking.a{
