@@ -659,6 +659,28 @@ label{
   margin-top: auto;
 }
 
+#booking{
+  position: fixed;
+  bottom: 2vw;
+  right: 2vw;
+  background-color: black;
+  color: white;
+  z-index: 3;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 20vmin;
+  border-radius: 1rem;
+  padding: 5px;
+}
+
+#booking img{
+  width: 50%;
+  position: absolute;
+  left: -20%;
+}
+
 @media screen and (max-width: 749px){
   #no1 >span:last-child{
     display: none;
