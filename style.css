@@ -557,7 +557,11 @@ div.no5{
 #kanan1a label{
   color: #9b9191;
   text-align: center;
-  width: 27vmin;
+  width: 26vmin;
+}
+
+#kanan1a> div:nth-child(2) label{
+  width: 28vmin;
 }
 
 #kanan1a> div:last-child label{
@@ -588,7 +592,7 @@ div.no5{
 .kanan1s > label{
   border: 1px solid orange;
   text-align: center;
-  width: 13vmin;
+  width: 15vmin;
   line-height:1.2em;
   padding: 2px 0 0 0;
   font-size: 2.3vmin;
