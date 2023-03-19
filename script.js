@@ -1,26 +1,8 @@
 window.addEventListener("DOMContentLoaded", e=>{
-    if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.getRegistration("sw.js").then((e) => {
-          if (e.active && 'getInstalledRelatedApps' in navigator && window.matchMedia('(display-mode: standalone)').matches != true) {
-            
-            lanjutDisini.click();
-          }else if(window.matchMedia('(display-mode: standalone)').matches == true){
-            lanjutDisini.click();
-          }else{
-            location.reload();
-          }
-        });
-      }else{
-        lanjutDisini.click();
-      }
+   lanjutDisini.click();
 });
 
-
-
-
-
 lanjutDisini.onclick = _=>{
-
     document.body.innerHTML = ` <div class="no1 a">
     <div class="a" id="no1">
       <span>
