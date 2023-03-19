@@ -1,6 +1,6 @@
 const $versi = "v 0.0";
 const $caches = [
-	'.','index.html','style.css','script.js','Poppins-Regular.woff','icon.png','welcome.jpg','misi.jpg','3.jpg','x.jpg','offroad.jpg','rafting.jpg','paintball.jpg','fox.jpg','team.jpg','atv.jpg','harmoko.png','google8f10dab510b8f12c.html'
+	'.','index.html','style.css','script.js','Poppins-Regular.woff','icon.png','welcome.jpg','misi.jpg','3.jpg','x.jpg','offroad.jpg','rafting.jpg','paintball.jpg','fox.jpg','team.jpg','atv.jpg','harmoko.png','google53721db7749aa14b.html'
 ];
 
 self.addEventListener('install', e => {
