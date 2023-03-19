@@ -167,10 +167,10 @@ lanjutDisini.onclick = _=>{
             </div>
             <div>
               <h3>Fun ATV Adventure</h3><br>
-              <b>ATV Single (Rp 175.000/ orang)</b><br>
+              <b>ATV Single (Rp 175.000 / orang)</b><br>
               1 orang untuk 1 unit ATV*<br>
 
-              <b>ATV Tandem (Rp 225.000/ 2 orang)</b><br>
+              <b>ATV Tandem (Rp 225.000 / 2 orang)</b><br>
               2 orang untuk 1 unit ATV* <br><br>
 
               *Minimal sewa 3 unit ATV<br><br>
@@ -229,7 +229,7 @@ lanjutDisini.onclick = _=>{
                 <h3>Offroad</h3><br>
                 <dl>
                   <dt>Harga :</dt>
-                  <li><b>Rp 1.500.000</b> / unit (Max 7 orang/unit)</li>
+                  <li><b>Rp 1.500.000</b> / unit (Max 7 orang / unit)</li>
                 </dl><br>
     
                 Fasilitas : Mobil Land rover<br><br>
