@@ -557,11 +557,11 @@ div.no5{
 #kanan1a label{
   color: #9b9191;
   text-align: center;
-  width: 25vmin;
+  width: 27vmin;
 }
 
 #kanan1a> div:last-child label{
-  width: 28vmin;
+  width: 30vmin;
 }
 
 #kanan1a input:checked + label{
