@@ -560,7 +560,7 @@ div.no5{
   width: 26vmin;
 }
 
-#kanan1a> div:nth-child(2) label{
+#kanan1a> div:nth-child(2) > span:last-child label{
   width: 28vmin;
 }
 
