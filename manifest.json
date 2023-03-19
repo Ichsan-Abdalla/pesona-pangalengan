@@ -1,7 +1,7 @@
 {
 	"author": "Ichsan Abdalla",
-	"name": "Pesona Pangalengan",
-	"short_name": "Pesona Alam Pangalengan",
+	"name": "Pesona Alam Pangalengan",
+	"short_name": "Pesona Pangalengan",
 	"start_url": ".",
 	"scope": ".",
 	"display": "standalone",

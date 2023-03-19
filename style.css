@@ -507,7 +507,7 @@ div.no5{
 
 #no5a > div.a{
   margin-top: 0;
-  transition-delay: .3s;
+  transition-delay: .5s;
 }
 
 #no5a > div > h3{
@@ -659,7 +659,7 @@ label{
   margin-top: auto;
 }
 
-@media screen and (max-width: 1095px){
+@media screen and (max-width: 749px){
   #no1 >span:last-child{
     display: none;
   }
@@ -704,11 +704,6 @@ label{
 
   #no5a > div{
     height: auto;
-  }
-
-  #no5a > div.a{
-    margin-top: 0;
-    transition-delay: .3s;
   }
 
   #no5a > div > h3{
