@@ -465,7 +465,7 @@ lanjutDisini.onclick = _=>{
           </div>
           <p class="bawah">Pesona Pangalengan | &#169; 2023 All Rights Reserved</p>
         </div>
-        <a href="https://api.whatsapp.com/send?phone=6285798713830&text=Halo%2C%20Pesona%20Pangalengan!%0ASaya%20mau%20booking%20nih!%0A"><span id="booking">
+        <a href="https://api.whatsapp.com/send?phone=6285798713830&text=Halo%2C%20Pesona%20Pangalengan!%0ASaya%20mau%20booking%20nih!%0A"><span id="booking" class="a">
           <img src="booking.png"><h3>Booking</h3>
         </span></a>
         <div style="display:flex"></div>
@@ -480,6 +480,7 @@ lanjutDisini.onclick = _=>{
     if(no5a.getBoundingClientRect().top <= window.innerHeight*40/100 && no5a.classList.contains('a')){
       no5a.classList.remove('a');
       document.querySelector('#no5a > div:first-child').classList.add('a');
+       booking.classList.remove('a');
     }
 
     if(document.querySelector('.no4 > div').getBoundingClientRect().top <= window.innerHeight*40/100){
