@@ -530,7 +530,6 @@ div.no5{
   width: 300%;
   height: 100%;
   position: relative;
-  transition: .5s;
 }
 
 #kanan1a > div{
@@ -673,6 +672,10 @@ label{
   width: 20vmin;
   border-radius: 1rem;
   padding: 5px;
+}
+
+#booking.a{
+  margin-bottom: -100%;
 }
 
 #booking img{
