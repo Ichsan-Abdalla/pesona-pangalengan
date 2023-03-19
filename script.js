@@ -465,6 +465,9 @@ lanjutDisini.onclick = _=>{
           </div>
           <p class="bawah">Pesona Pangalengan | &#169; 2023 All Rights Reserved</p>
         </div>
+        <a href="https://api.whatsapp.com/send?phone=6285798713830&text=Halo%2C%20Pesona%20Pangalengan!%0ASaya%20mau%20booking%20nih!%0A"><span id="booking">
+          <img src="booking.png"><h3>Booking</h3>
+        </span></a>
         <div style="display:flex"></div>
   `;
     
