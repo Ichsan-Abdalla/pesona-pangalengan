@@ -268,6 +268,7 @@ html {
 
 #loading{
   position: fixed;
+  top: 0;
   z-index: 2;
   background-color: #D8D2C6;
   width: 100%;
@@ -290,25 +291,6 @@ html {
 #no1.a,#no2.a,.no4 > div.a,.no3 > div.a{
   opacity: 0;
 }
-
-.instal{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .instal h2{
-    text-align: center;
-    margin-bottom: 2vw;
-  }
-  
-  .instal button{
-    cursor: pointer;
-    padding: 1px 2px;
-    font-size: 2.7vmin;
-  }
-  
 
   .no1,.no4{
     background-position: center;
@@ -359,7 +341,7 @@ html {
   }
 
 
-  body > div:not(#loading,#loading div,.instal,div:first-child,.no4a,.no4b,.no4c,.no4d,.no4e,.no4f,.divx){
+  body > div:not(#loading,#loading div,.no4a,.no4b,.no4c,.no4d,.no4e,.no4f,.divx){
   
     margin:3.5vw 3.5vw 0;
     border-radius: 1rem;
@@ -665,7 +647,7 @@ label{
   right: 2vw;
   background-color: black;
   color: white;
-  z-index: 3;
+  z-index: 1;
   border: 2px solid white;
   display: flex;
   align-items: center;
