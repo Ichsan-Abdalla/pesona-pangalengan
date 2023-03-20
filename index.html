@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EWNYNQDDGH"></script>
     <script>
+      window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EWNYNQDDGH');
+      
+      
       document.cookie = document.cookie.split("=")[0] + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("sw.js");
