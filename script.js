@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", e=>{
    setTimeout(() => {
     loading.style.display = 'none';
     no1.classList.remove('a');
-  }, 300);
+  }, 1500);
 });
 
 
